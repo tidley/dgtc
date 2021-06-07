@@ -17,6 +17,17 @@ export PATH=$PATH:$ANDROID_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/tools/
 ```
 
+### Unable to find Android SDK
+
+Find Android SDK by opening Android Studio and selecting SDK Manager from the tool bar or settings menu.
+
+Run `flutter config --android-sdk <path-to-your-android-sdk-path>`
+
+`flutter doctor --android-licenses` should now work.
+
+### Other info
+
 Arch Linux setup tips https://dev.to/awais/configure-flutter-development-environment-on-manjaro-arch-linux-4a0a
 
 Helpful tips for telling Flutter where Android SDK lives https://stackoverflow.com/questions/62503437/unable-to-locate-android-sdk-for-flutter-doctor
+
